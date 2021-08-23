@@ -1,0 +1,386 @@
+<div class="video-background">
+  <iframe class="videoContainer__video" height="100%" width="130%"
+    src="https://www.youtube.com/embed/EZzbh9YjVhQ?controls=0&amp;showinfo=0&amp;rel=0&amp;autoplay=1&amp;loop=1&amp;mute=1"
+    frameborder="0"></iframe>
+</div>
+
+<div class="section">
+
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <div class="title">
+    <div>
+      <img src="images/logo.png" height="150px">
+    </div>
+    <h1>Lost Paradise <br />RolePlay <img src="images/amenities-services-114244.png" class="palm-image" /></h1>
+    <div class="music">Norėdami sustabdyti muziką spauskite "Space"</div>
+  </div>
+
+  <div id="rotate-words">
+    <div><img src="./images/20201018_131853.jpg" class="ul-image" />Arvys28<br /> <span>Savininkas</span></div>
+    <div><img src="images/wp3870461.jpg" class="ul-image" />Floferis<br /> <span>Vyr. Administracija</span></div>
+    <div><img src="./images/20201018_131853.jpg" class="ul-image" />Arvys28<br /> <span>Savininkas</span></div>
+    <div><img src="images/wp3870461.jpg" class="ul-image" />Floferis<br /> <span>Vyr. Administracija</span></div>
+  </div>
+
+
+  <div class="video-container">
+    <div class="color-overlay"></div>
+    <video autoplay loop muted>
+      <source src="video.mp4" type="video/mp4">
+    </video>
+  </div>
+
+</div>
+
+<style>
+  .video-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -99;
+  }
+
+  .section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .section h1 {
+    text-align: center;
+    font-size: 6rem;
+    font-family: "Cookie";
+    padding: 20px;
+    margin-top: 30px;
+    z-index: 1;
+    opacity: 0.7;
+  }
+
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(1, 49, 104);
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
+
+  .fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+  }
+
+  .fullscreen-bg__video {
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #3f81b3 url(https://media.giphy.com/media/5kFbMBOEdWjg1nItoG/giphy.gif) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  /****************************************************************************/
+
+  @import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+  .title {
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    background-image: url(https://media.giphy.com/media/5kFbMBOEdWjg1nItoG/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    /* text-transform: uppercase; */
+    font-size: 120px;
+    line-height: .75;
+    margin: 10px 0;
+  }
+
+  .white-mode {
+    text-decoration: none;
+    padding: 7px 10px;
+    background-color: #122;
+    border-radius: 3px;
+    color: #FFF;
+    transition: .35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    font-family: "Montserrat";
+  }
+
+  .white-mode:hover {
+    background-color: #FFF;
+    color: #122;
+  }
+
+  /*/////////////////////////////////////////////////////////////////////////////////////////////*/
+
+  @import url('https://fonts.googleapis.com/css?family=Oswald:700');
+  @import url('https://fonts.googleapis.com/css?family=Rubik');
+
+  body {
+    /* background-image: url(https://media.giphy.com/media/5kFbMBOEdWjg1nItoG/giphy.gif); */
+    /* background-color:#3757D0; */
+    background-attachment: fixed;
+    color: rgb(148, 201, 160);
+    text-align: center;
+  }
+
+  #rotate-words {
+    /* width: 100%; */
+    height: auto;
+    margin-bottom: -800;
+    padding: 20% 0;
+    font-size: 2.2em;
+    /* justify-content: first baseline; */
+    /* text-transform:uppercase; */
+    font-family: monospace;
+  }
+
+  #rotate-words span {
+    display: block;
+    height: 50px;
+    font-size: .7em;
+    /* text-transform:lowercase; */
+    opacity: .8;
+    font-family: monospace;
+  }
+
+  #rotate-words div {
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    left: 10vw;
+    width: 80vw;
+    line-height: 1.2em;
+    animation: rotate-word 32s linear infinite 0s;
+  }
+
+  @keyframes rotate-word {
+    0% {
+      opacity: 0;
+      transform: translateX(0);
+      filter: blur(10px);
+      transform: scale(1.2)
+    }
+
+    3% {
+      opacity: 1;
+      transform: translateX(0);
+      filter: blur(0px);
+      transform: scale(.9)
+    }
+
+    12% {
+      opacity: 1;
+      transform: translateX(0);
+      filter: blur(0px);
+      transform: scale(1)
+    }
+
+    16% {
+      opacity: 0;
+      transform: translateX(0);
+      filter: blur(10px);
+      transform: scale(1.2)
+    }
+
+    80% {
+      opacity: 0
+    }
+
+    100% {
+      opacity: 0
+    }
+  }
+
+  #rotate-words div:nth-child(2) {
+    animation-delay: 4s
+  }
+
+  #rotate-words div:nth-child(3) {
+    animation-delay: 8s
+  }
+
+  #rotate-words div:nth-child(4) {
+    animation-delay: 12s
+  }
+
+  #rotate-words div:nth-child(5) {
+    animation-delay: 16s
+  }
+
+  #rotate-words div:nth-child(6) {
+    animation-delay: 20s
+  }
+
+  #rotate-words div:nth-child(7) {
+    animation-delay: 24s
+  }
+
+  #rotate-words div:nth-child(8) {
+    animation-delay: 28s
+  }
+
+  @keyframes author {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+      filter: blur(10px);
+      transform: scaleY(2)
+    }
+
+    20% {
+      opacity: 0;
+      transform: translateY(200px);
+      filter: blur(10px);
+      transform: scaleY(2)
+    }
+
+    30% {
+      opacity: 1;
+      transform: translateY(0);
+      filter: blur(0px);
+      transform: scaleY(1)
+    }
+
+    90% {
+      opacity: 1;
+      transform: translateY(0);
+      filter: blur(0px);
+      transform: scaleY(.9)
+    }
+
+    100% {
+      opacity: 0;
+      transform: translateY(0);
+      filter: blur(10px);
+      transform: scale(2)
+    }
+  }
+
+
+  /********************************************************************************/
+
+  /* 
+.marquee {
+    height: 1000px;
+    width: 100%;
+    background-color: transparent;
+    color: #eee;
+}
+
+.marque-content {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .marque-content li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0 24px;
+    flex-shrink: 0;
+    font-size: 2rem;
+} */
+  .ul-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+
+  .palm-image {
+    width: 80px;
+    height: 70px;
+    border-radius: 0;
+    object-fit: cover;
+  }
+
+  .music {
+    font-family: monospace;
+  }
+</style>
+
+<script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'UA-73378277-10'); </script>
+<audio id="leson" src="music/music.mp3" autoplay="true" hidden="true" loop="true" />
+<script>
+
+  var play = true;
+  var myAudio = document.getElementById("leson");
+
+  myAudio.volume = 0.1;
+
+
+  function onKeyDown(event) {
+    switch (event.keyCode) {
+      case 32: //SpaceBar                    
+        if (play) {
+          myAudio.pause();
+          play = false;
+        } else {
+          myAudio.play();
+          play = true;
+        }
+        break;
+    }
+    return false;
+  }
+  window.addEventListener("keydown", onKeyDown, false);
+</script>
